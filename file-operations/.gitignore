@@ -1,0 +1,37 @@
+# Compiled object files
+*.o
+*.obj
+
+# Compiled binary files
+*.out
+*.exe
+
+# Debug files
+*.dSYM/
+*.pdb
+
+# Dependency files
+*.d
+
+# Build directories
+/build/
+bin/
+obj/
+
+# IDE files
+*.vscode/
+*.idea/
+*.swp
+*.swo
+*.tmp
+
+# Logs
+*.log
+
+# Backup files
+*~
+*.bak
+
+# Other temporary files
+*.tmp
+
