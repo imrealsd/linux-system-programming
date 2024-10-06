@@ -19,6 +19,7 @@ int main(void)
         printf("Failed to create file: Error Number: %d\n", errno);
         perror("ERROR:");
     }
+    close(file_descriptor);
 
     return 0;
 }

@@ -31,5 +31,7 @@ int main(void)
     } else {
         perror("ERROR:");
     }
+    close(file_descriptor);
+
     return 0;
 }

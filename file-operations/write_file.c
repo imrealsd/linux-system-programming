@@ -36,5 +36,7 @@ int main(void)
         printf("Error Number:%d\n", errno);
         perror("ERROR");
     }
+    close(file_descriptor);
+    
     return 0;
 }

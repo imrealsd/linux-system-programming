@@ -19,6 +19,7 @@ int main(void)
         printf("Failed to open file: Error Number: %d\n", errno);
         perror("ERROR:");
     }
+    close(file_descriptor);
 
     return 0;
 }
